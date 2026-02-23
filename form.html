@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <div class="wrapper">
+        <div class="card">
+          <div class="img-box">
+            <img src="subrata.jpeg" alt="" />
+          </div>
+
+          <label for="username">UserName</label>
+          <input
+            type="text"
+            placeholder=" Enter UserName"
+            id="username"
+            required
+          />
+          <label for="email">Email</label>
+          <input type="email" placeholder=" Enter Email" id="email" required />
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            placeholder=" Enter password"
+            id="pass"
+            required
+          />
+          <div class="show-pass" id="togglePassword">
+            Show Password
+        </div>
+          <button type="submit" class="login">Login</button>
+          <a href="">Forget Password</a>
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
